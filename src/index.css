@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+:root {
+  --primary-color: #3837E7;
+  --text-color: #3A395E;
+  --text-color-lighter: #6E6D8F;
+  --background-color: #F6F6F6;
+  --hover-color: #6E6D8F;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+body {
+  font-family: 'helvetica neue', sans-serif;
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-color-lighter);
+}

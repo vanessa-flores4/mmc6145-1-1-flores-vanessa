@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #3837E7;
+    --text-color: #3A395E;
+    --text-color-lighter: #6E6D8F;
+    --background-color: #F6F6F6;
+    --hover-color: #6E6D8F;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+.heading{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--text-color);
+}
+.text{
+    color: var(--text-color-lighter);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.social a {
+    display: inline;
+    margin: 0 10px;
+}
+.social img {
+    width: 35px;
+    height: 35px;
+}
