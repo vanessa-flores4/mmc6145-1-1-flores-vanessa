@@ -4,7 +4,6 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Header from './components/header'
 import Footer from './components/footer'
-import Project from './components/project'
 
 export default function App() {
   return (
@@ -15,8 +14,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Project />
-        <Project />
       <Footer />
     </>
   )

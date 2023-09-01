@@ -10,7 +10,7 @@ export default function Header() {
     <Link to={"/"}>
         <img src={logo} style={{height: '115px'}} alt="vanessa flores" />
     </Link>
-    </div>
+    </div> 
     <div className='links' >
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
